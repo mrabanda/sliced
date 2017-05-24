@@ -18,4 +18,5 @@
 
 ### How it works
 
-When the
+- Openning the app initilizes a connection to Firebase.
+- 

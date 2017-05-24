@@ -22,4 +22,12 @@
 
 - Openning the app initilizes a connection to Firebase and pushes the data for pizza shops and bars into two separate arrays.
 
-- When a locatin is entered and the "Submit" button is clicked an array containing the latitude and longitude for each business is created and 
+- Google maps is also initialized and uses the data in the arrays to add custom markers at each business location with `google.maps.Marker`.
+
+- When a user location is entered and the "Submit" button is clicked, an array containing the latitude and longitude for each business is created and `google.maps.DistanceMatrixService` is used to determine the distance from the user location.
+
+- Distance results are sorted then the 5 nearest pizza shops and 5 nearest bars are displayed in the results list using jQuery.
+
+- Clicking on a result shows directions on the map and turn by turn
+
+- Clicking on a map marker shows a short description of the business.

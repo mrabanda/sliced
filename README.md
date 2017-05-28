@@ -15,6 +15,7 @@
 - Materialize
 - Google Maps API
 - Yelp API
+- Heroku
 
 ### How it works
 
